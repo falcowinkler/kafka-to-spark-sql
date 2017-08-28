@@ -24,10 +24,11 @@ public class StructuredStreaming {
 
         Dataset<String> lines = spark
                 .readStream()
-                .format("kafka")
+                .format("com.databricks.spark.avro")
                 .option("kafka.bootstrap.servers", "localhost:9092")
                 .option("subscribe", "test")
                 .load()
+
                 .selectExpr("CAST(value AS STRING)")
                 .as(Encoders.STRING());
 
