@@ -16,9 +16,8 @@
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-hive_2.11:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-hive-thriftserver_2.11:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-streaming_2.10:2.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.avro:avro:1.8.2" level="project" />
-    <orderEntry type="library" name="Gradle: com.twitter:bijection-avro_2.9.3:0.6.3" level="project" />
-    <orderEntry type="library" name="Gradle: com.databricks:spark-avro_2.10:3.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.avro:avro:1.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.twitter:bijection-avro_2.10:0.6.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka_2.11:0.10.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-tags_2.11:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.spark-project.spark:unused:1.0.0" level="project" />
@@ -91,7 +90,7 @@
     <orderEntry type="library" name="Gradle: net.sf.jpam:jpam:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-core_2.10:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-tags_2.10:2.2.0" level="project" />
-    <orderEntry type="library" name="Gradle: com.twitter:bijection-core_2.9.3:0.6.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.twitter:bijection-core_2.10:0.6.3" level="project" />
     <orderEntry type="library" name="Gradle: com.101tec:zkclient:0.8" level="project" />
     <orderEntry type="library" name="Gradle: com.yammer.metrics:metrics-core:2.2.0" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" level="project" />

@@ -1,0 +1,12 @@
+{
+  "type" : "record",
+  "name" : "Game",
+  "namespace" : "iwg.ticketpool.model.avro",
+  "fields" : [ {
+    "name" : "name",
+    "type" : "string"
+  }, {
+    "name" : "version",
+    "type" : "string"
+  } ]
+}

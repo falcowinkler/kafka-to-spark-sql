@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "TicketWinningClass",
+  "namespace" : "iwg.ticketpool.model.avro",
+  "fields" : [ {
+    "name" : "number",
+    "type" : "int"
+  }, {
+    "name" : "winningsInMinor",
+    "type" : "int"
+  }, {
+    "name" : "currency",
+    "type" : "string"
+  }, {
+    "name" : "winningsType",
+    "type" : "string"
+  } ]
+}

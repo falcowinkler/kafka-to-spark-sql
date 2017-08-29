@@ -1,0 +1,77 @@
+{
+  "protocol" : "InstantWinGameTicketPoolProtocol",
+  "namespace" : "iwg.ticketpool.model.avro",
+  "types" : [ {
+    "type" : "record",
+    "name" : "Game",
+    "fields" : [ {
+      "name" : "name",
+      "type" : "string"
+    }, {
+      "name" : "version",
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "record",
+    "name" : "TicketWinningClass",
+    "fields" : [ {
+      "name" : "number",
+      "type" : "int"
+    }, {
+      "name" : "winningsInMinor",
+      "type" : "int"
+    }, {
+      "name" : "currency",
+      "type" : "string"
+    }, {
+      "name" : "winningsType",
+      "type" : "string"
+    } ]
+  }, {
+    "type" : "record",
+    "name" : "TicketBoughtEvent",
+    "fields" : [ {
+      "name" : "id",
+      "type" : "string"
+    }, {
+      "name" : "tenantId",
+      "type" : "string"
+    }, {
+      "name" : "timestamp",
+      "type" : "long"
+    }, {
+      "name" : "eventType",
+      "type" : "string",
+      "default" : "TicketBoughtEvent"
+    }, {
+      "name" : "version",
+      "type" : "int",
+      "default" : 4
+    }, {
+      "name" : "seqNr",
+      "type" : "long"
+    }, {
+      "name" : "game",
+      "type" : "Game"
+    }, {
+      "name" : "ticketId",
+      "type" : "string"
+    }, {
+      "name" : "customerNumber",
+      "type" : "string"
+    }, {
+      "name" : "winningClass",
+      "type" : "TicketWinningClass"
+    }, {
+      "name" : "gameScenario",
+      "type" : "string"
+    }, {
+      "name" : "priceInMinor",
+      "type" : "int"
+    }, {
+      "name" : "currency",
+      "type" : "string"
+    } ]
+  } ],
+  "messages" : { }
+}
